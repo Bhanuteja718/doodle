@@ -1,0 +1,7 @@
+users =["admins","guest","guest","users"]
+
+for u in users:
+       if u == "guests":
+                users.remove(u)
+
+	print(users)
